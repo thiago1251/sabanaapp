@@ -312,6 +312,13 @@ for key, default in [("tw_sid", os.getenv("TWILIO_ACCOUNT_SID", "")),
         st.session_state[key] = default
 
 # --------------------------- Estilos (tema + componentes) ---------------------------
+st.markdown("""
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+</style>
+""", unsafe_allow_html=True)
+
+
 THEME_CSS = """
 <style>
 :root{
@@ -321,7 +328,8 @@ THEME_CSS = """
   --shadow-soft:0 4px 14px rgba(10,20,60,.18);
 }
 html, body, [data-testid="stAppViewContainer"]{
-  background: var(--bg-dark) !important; color: var(--text) !important;
+  font-family: "Inter", "Segoe UI", Roboto, Arial, sans-serif !important;
+}
   font-family: "Inter", "Segoe UI", Roboto, Arial, sans-serif !important;
   font-size: 20px !important; line-height: 1.6; cursor: default;
 }
