@@ -221,7 +221,7 @@ def build_invoice_message(o: Order) -> str:
         f"⚖ {COMPANY_NAME.split(' S.A.S')[0]} es responsable del IVA y agente retenedor.",
         "",
         "Si necesitas imprimir, personalizar o descargar tu factura, ve al siguiente link:",
-        "🔗 https://www.figma.com/proto/niEz42XWpMPuWMeNgQbiPR/SabanaHack?node-id=6-3&p=f&m=dev&scaling=scale-down&content-scaling=fixed&page-id=0%3A1",
+        "🔗 https://www.figma.com/proto/niEz42XWpMPuWMeNgQbiPR/SabanaHack?node-id=5-2&p=f&m=dev&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&t=sH9r9AHwkWhMYbC4-1",
         "",
         "Gracias por preferirnos. ¡Esperamos que disfrutes tu pedido! 😊😊",
     ]
